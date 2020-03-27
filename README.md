@@ -18,8 +18,8 @@ Gameplay video: ur-link-wip
 * **Left Click** on Skills Menu to invest skill Point.
 * **Right Click** on Skills Panel to place skills in the hot bar.
 * **Right Click** on usable items to use them.
-* **P** Change game speed.
-* **O** Change resolution (Mouse clicks not precises with non native resolution)
+* **P** to change game speed.
+* **O** to change resolution (Mouse clicks not precises with non native resolution)
 
 ### Map Creator
 
