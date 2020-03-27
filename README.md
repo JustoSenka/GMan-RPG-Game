@@ -2,7 +2,6 @@
 2.5D RPG game written in C++. 
 
 Gameplay video: ur-link-wip
-|
 
 ## Controls 
 
@@ -15,12 +14,10 @@ Gameplay video: ur-link-wip
 * **B** to open **S**hop panel. (Only available inside starting town)
 * **Spacebar** to attack.
 * **1-8** Numbers to perform skill from hot bar.
-
 * **Left Mouse Drag and Drop** to buy/sell items from the shop. Equip Items in inventory.
 * **Left Click** on Skills Menu to invest skill Point.
 * **Right Click** on Skills Panel to place skills in the hot bar.
 * **Right Click** on usable items to use them.
-
 * **P** Change game speed.
 * **O** Change resolution (Mouse clicks not precises with non native resolution)
 
