@@ -1,0 +1,7 @@
+Types Help:
+
+1 - Horizontal fence
+2 - Vertical fence
+3 - Tent
+4 - Rock...
+5 - Tree

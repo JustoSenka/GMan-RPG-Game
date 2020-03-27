@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="&quot;C:\Users\Justas\Desktop\GMan source 2012 11 18\RPG\Project1.exe&quot;"/>
+    <OBJFILES value="Project1.obj Unit1.obj"/>
+    <RESFILES value="Project1.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="&quot;D:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;&quot;C:\Users\Justas\Desktop\Builder c++\RPG&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;D:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;&quot;C:\Users\Justas\Desktop\Builder c++\RPG&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;D:\Program Files (x86)\Borland\CBuilder6\Projects&quot; 
+      -I&quot;C:\Users\Justas\Desktop\Builder c++\RPG&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-l&quot;C:\Users\Justas\Desktop\GMan source 2012 11 18\RPG&quot; -D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1063
+CodePage=1257
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=D:\Program Files (x86)\Borland\CBuilder6\Projects;C:\Users\Justas\Desktop\Builder c++\RPG;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=D:\Program Files (x86)\Borland\CBuilder6\Projects;C:\Users\Justas\Desktop\Builder c++\RPG;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlFinalOutputDir]
+Count=20
+Item0=C:\Users\Justas\Desktop\GMan source 2012 11 18\RPG\
+Item1=C:\Users\Justas\Desktop\GMan source 2012 11 16\RPG\
+Item2=C:\Users\Justas\Desktop\GMan source 2012 11 16\RPG
+Item3=C:\Documents and Settings\V\Desktop\GMan Alpha source\RPG\
+Item4=C:\Documents and Settings\V\Desktop\GMan Alpha source\RPG
+Item5=C:\Documents and Settings\V\Desktop\GMan 2012 07 21 source\RPG\
+Item6=C:\Documents and Settings\V\Desktop\GMan 2012 07 21 source\RPG
+Item7=f:\GMan 2012 05 07 source\RPG - Copy\
+Item8=I:\GMan 2012 05 07 source\RPG - Copy\
+Item9=I:\GMan 2012 05 07 source\RPG - Copy
+Item10=F:\GMan 2012 05 07 source\RPG\
+Item11=F:\GMan 2012 05 07 source\RPG
+Item12=I:\GMan 2012 05 07 source\RPG\
+Item13=I:\GMan 2012 05 07 source\RPG
+Item14=F:\GMan 2012 05 07\RPG\
+Item15=F:\GMan 2012 05 07\RPG
+Item16=C:\Users\Justas\Desktop\Builder c++\GMan\RPG\
+Item17=C:\Users\Justas\Desktop\Builder c++\GMan\RPG
+Item18=C:\Users\Justas\Desktop\Builder c++\RPG\
+Item19=C:\Users\Justas\Desktop\Builder c++\RPG
+
+[HistoryLists\hIBPIOutputDir]
+Count=12
+Item0=C:\Users\Justas\Desktop\GMan source 2012 11 18\RPG
+Item1=C:\Users\Justas\Desktop\GMan source 2012 11 16\RPG
+Item2=C:\Documents and Settings\V\Desktop\GMan Alpha source\RPG
+Item3=C:\Documents and Settings\V\Desktop\GMan 2012 07 21 source\RPG
+Item4=f:\GMan 2012 05 07 source\RPG - Copy
+Item5=I:\GMan 2012 05 07 source\RPG - Copy
+Item6=F:\GMan 2012 05 07 source\RPG - copy\
+Item7=F:\GMan 2012 05 07 source\RPG
+Item8=I:\GMan 2012 05 07 source\RPG
+Item9=F:\GMan 2012 05 07\RPG
+Item10=C:\Users\Justas\Desktop\Builder c++\GMan\RPG
+Item11=C:\Users\Justas\Desktop\Builder c++\RPG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

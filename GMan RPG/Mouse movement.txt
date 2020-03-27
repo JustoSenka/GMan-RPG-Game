@@ -1,0 +1,65 @@
+// Sets the values and where did you pressed """  Walking """
+// Mouse
+if (press == 1 && shift == 0 && wasd[1] + wasd[2] + wasd[3] + wasd[4] == 0)
+{
+
+t1 = mx - (PLx + PL[1]->Width / 2);
+t2 = my - (PLy + PL[1]->Height - 16);
+
+if (t1 == 0)t1 = 1;
+if (t2 == 0)t2 = 1;
+
+if (t1 < 0)t1 = -t1;
+if (t2 < 0)t2 = -t2;
+
+// Facing start
+
+if (t1 > t2 && mx > PLx + 18) facing = 13;
+if (t1 > t2 && mx < PLx + 18) facing = 5;
+if (t1 < t2 && my > PLy + 18) facing = 9;
+if (t1 < t2 && my < PLy + 18) facing = 1;
+
+// Facing end
+
+if (t1 > t2)
+   {
+    t3 = t1 / t2;
+
+    percent = 6;
+    if (t3 <= 4) percent = 6.5;
+    if (t3 <= 2.5) percent = 7;
+    if (t3 <= 2) percent = 8;
+    if (t3 <= 1.5) percent = 8.5;
+
+    if (t3 < 0) t3 = -t3;
+
+    valx = (percent / (t3 + 1)) * t3;
+    valy = percent - valx;
+
+    if (mx < PLx + PL[1]->Width / 2)valx = -valx;
+    if (my < PLy + PL[1]->Height - 16)valy = -valy;
+   } else
+
+   {
+    t3 = t2 / t1;
+
+    percent = 6;
+    if (t3 <= 4) percent = 6.5;
+    if (t3 <= 2.5) percent = 7.2;
+    if (t3 <= 2) percent = 8;
+    if (t3 <= 1.5) percent = 8.5;
+
+    if (t3 < 0)t3 = -t3;
+
+    valy = (percent / (t3 + 1)) * t3;
+    valx = percent - valy;
+
+    if (mx < PLx + PL[1]->Width / 2)valx = -valx;
+    if (my < PLy + PL[1]->Height - 16)valy = -valy;
+   }
+}
+
+// Sets values if finished  """ Stoping """  Mouse
+
+if (PLx + PL[1]->Width / 2 + 5 >= mx && PLx + PL[1]->Width / 2 - 5 <= mx) valx = 0;
+if (PLy + PL[1]->Height - 11 >= my && PLy + PL[1]->Height - 21 <= my) valy = 0;
