@@ -3,6 +3,10 @@
 
 Gameplay video: ur-link-wip
 
+|![First level](https://github.com/JustoSenka/GMan-RPG-Game/blob/master/Screenshots/Game.jpg?raw=true)||
+|---|---|
+|![Second level](https://github.com/JustoSenka/GMan-RPG-Game/blob/master/Screenshots/MapCreator.jpg?raw=true)||
+
 ## Controls 
 
 ### Main Game
