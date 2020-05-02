@@ -1,5 +1,8 @@
 # GMan-RPG-Game
-2.5D RPG game written in C++. 
+
+A Diablo-like 2.5D RPG game created with Borland C++ Builder 6.
+
+Game with standard RPG mechanics, leveling, skill and magic systems, mobs with randomized loot, inventory and shops, bosses. Also includes Map Creator where wolrd map as well as mob and item databases can be created using simple and intuitive drag&drop mechanics.
 
 Gameplay video: ur-link-wip
 
